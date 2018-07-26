@@ -47,5 +47,5 @@ header .menu{
 /*end descripcion*/
 .jumbotron{
     margin-top: 170px;
-    background:linear-gradient(#60efb8,#4bbb8b,#c4e3cb);
+    background-image:linear-gradient(#60efb8,#4bbb8b,#c4e3cb);
 }
