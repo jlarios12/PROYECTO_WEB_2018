@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+}
+/* star menu */
+header .menu{
+    background: #2d095c;
+}
+.nav-link{
+    color: aliceblue;
+    float: right;
+}
+/*star portada*/
+.descriptor{
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position:absolute;
+    margin-top: 250px;
+    font-size: 4vh;
+    
+}
+#particles-js{
+    background-image: url(imagenes/abstract-3079533_1920.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100%;
+    text-align: center;
+}
+/*end portada*/
+
+/*star descripcion*/
+
+.descripcion{
+    background-image:linear-gradient(#571179 10%,#08c299,#2d095c);
+    height: 700px;
+    width: 100%;
+}
+/*end descripcion*/
+.jumbotron{
+    margin-top: 170px;
+    background:linear-gradient(#60efb8,#4bbb8b,#c4e3cb);
+}
