@@ -19,7 +19,7 @@
     <a class="navbar-brand" href="#">Hidden brand</a>
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" id="test1" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#test">MAS</a>
@@ -73,9 +73,9 @@
 <script src="particles.js-master/demo/js/app.js"></script>
  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
  <script type="text/javascript">
-$(document).on('click',function(){
-$('.descripcion').hide();
-$('.descripcion').fadeIn(2000);
+$('#test1') .click(function(){
+$('#test').hide();
+$('#test').fadeIn(2000);
 });
 </script>
 </body>
